@@ -71,7 +71,7 @@ function CreatePost(User) {
                     {/* <textarea name="body" {...register("body", { required: true })}></textarea>
                     {errors.body && <span className="text-danger ms-2">Body is required</span>} */}
                 </fieldset>
-                <button className="btn btn-info offset-4">
+                <button className="btn btn-success offset-4">
                     <i className="bi bi-plus-circle"></i> Save
                 </button>
             </form>

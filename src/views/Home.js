@@ -37,14 +37,19 @@ function Home(User) {
 
     return (
         <section className="container">
-            <h1>Welcome to our First React App, {User.displayName}</h1>
-            <p>We're building this for COMP2112.</p>
-            <p>Your username is {User.username}.</p>
-            <div>
-                <h5>Count: <span className="badge bg-secondary">{count}</span></h5>
-                <button className="btn btn-info m-1" onClick={updateCount}>Click Me</button>
-                <button className="btn btn-info m-1" onClick={resetCount}>Reset</button>
-            </div>
+            <h1>Welcome to My Custom React App!</h1>
+                <p>
+                    Explore our website to discover amazing features and services offered by our application.
+                </p>
+                <p>
+                    <strong>Key Features:</strong>
+                </p>
+                <ul>
+                    <li>Multi-page navigation</li>
+                    <li>Data management with state and effects</li>
+                    <li>Responsive design with Bootstrap</li>
+                </ul>
+                <p>Get started by navigating to the About, Contact, and Services pages using the navigation bar.</p>
         </section>
     );
 }

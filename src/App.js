@@ -30,18 +30,18 @@ function App() {
       {/* wrap all components in the context so it can be shared among all */}
       <CounterContext.Provider value={{ sessionCounter, handleIncrement }}>
         {/* jsx comment style */}
-        <Header username='rfreeman' />
+        <Header username='aayush' />
         <main>
           {/* use classes from react-router-dom to set up the url mapping for each page */}
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Home username='rfreeman' displayName='Rich Freeman' />} />
+              <Route path="/" element={<Home username='aayush' displayName='Aayush' />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/services" element={<Services />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/post/:id" element={<Post />} />
-              <Route path="/create-post" element={<CreatePost username='rfreeman' />} />
+              <Route path="/create-post" element={<CreatePost username='aayush' />} />
             </Routes>
           </BrowserRouter>
         </main>

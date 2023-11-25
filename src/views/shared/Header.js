@@ -3,10 +3,10 @@ import React from "react";
 // add User prop so we show some details about the user in the navbar
 function Header(User) {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+      <div className="container">
         <a className="navbar-brand" href="/">
-          First React App
+          Just React
         </a>
         <button
           className="navbar-toggler"

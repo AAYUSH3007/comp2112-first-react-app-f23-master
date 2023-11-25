@@ -8,8 +8,16 @@ function About() {
 
     return (
         <section className="container">
-            <h1>About this Site</h1>
-            <p>We're using it to learn React.</p>
+             <h1>About Us</h1>
+            <p>
+                We are a dedicated team of developers passionate about creating innovative web applications.
+            </p>
+            <p>
+                Our goal is to leverage the power of React to deliver seamless and engaging user experiences.
+            </p>
+            <p>
+                Explore our application to see how we've implemented stateful components, effects, and Bootstrap for a polished UI.
+            </p>
         </section>
     );
 }

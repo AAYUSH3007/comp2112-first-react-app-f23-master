@@ -12,7 +12,11 @@ function Services() {
     return (
         <section className="container">
             <h1>Services</h1>
-            <p>We can do a bunch of stuff including:</p>
+            
+            <p>
+        Explore the range of services we offer to enhance your web development experience.
+      </p>
+      <p>We can do a bunch of stuff including:</p>
             <ul className="list-group">
                 {/* use array.map to loop through, creating a list item for each array element. shorter code than a for loop */}
                 {services.map((service) => (
@@ -21,6 +25,9 @@ function Services() {
                     </li>
                 ))}
             </ul>
+            <p>
+        Our team is dedicated to delivering high-quality solutions tailored to your needs.
+      </p>
         </section>
     );
 }
