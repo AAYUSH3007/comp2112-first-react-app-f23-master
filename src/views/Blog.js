@@ -16,7 +16,7 @@ function Blog() {
 
     return (
         <div className="container">
-            <h1>Latest Random Thoughts</h1>
+            <h1>Blogs</h1>
             <a href="/create-post" className="btn btn-info mb-3">
                 <i className="bi bi-plus-circle"></i> Create New Post
             </a>

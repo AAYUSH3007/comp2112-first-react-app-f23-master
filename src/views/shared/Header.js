@@ -32,11 +32,6 @@ function Header(User) {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact" id="contact">
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="/services" id="services">
                 Services
               </a>
@@ -44,6 +39,11 @@ function Header(User) {
             <li className="nav-item">
               <a className="nav-link" href="/blog" id="blog">
                 Blog
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact" id="contact">
+                Contact
               </a>
             </li>
             <li className="nav-item">
